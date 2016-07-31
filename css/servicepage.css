@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+
+
+
+#mainblock{
+
+	background-color:#efefef;
+}
+
+#mission{
+	
+	
+	float:left;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+	font-size:150%;
+	
+	
+}
+#mission h1{
+	text-align:center;
+}
+.justalist{
+	display:inline-block;
+	list-style-type:none;
+}
+
+
+#enlist{
+	
+	padding-left:160px;
+}

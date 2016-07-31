@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+
+
+
+#mainblock{
+
+	background-color:#efefef;
+}
+
+#cn, #en{
+	
+	
+	float:left;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+	font-size:150%;
+	
+	
+}
+#en{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#cn h1, h2{
+	text-align:center;
+}
