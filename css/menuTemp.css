@@ -8,9 +8,12 @@ html, body{
 nav{
 	
 	display:block;
+	
 	left: 0;
     top: 0;
-    position:fixed;
+    
+	position:absolute;
+	
 	width:100%;
 	height:60px;
 	background:white;
@@ -20,11 +23,16 @@ nav{
 
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 	font-weight: 800;
-	min-width:14000px;
+	min-width:1585px;
 	
 	overflow:visible;
 	
+	
+	
+	
+	
 }
+
 
 nav ul{
 		display:inline;
@@ -34,7 +42,7 @@ nav ul{
 	    
 }
 
-#secondhalf{
+#secondhalf, #firsthalf, #firstli{
 		padding-left:0px;
 	
 }
