@@ -14,5 +14,5 @@ This is meant to be a simple static website where information are presented to t
 
 - Found some JavaScript/JQ solutions, it took a while for me to realize I need to import JQ to use JQ, but anyway most of them seems to be too complex for the situation, so I settled with a method that is similar to those annoying floating ads that follow you forever (Changing the "top" value when scrolling vertically).
 
-
+- Replace Contact Page with Story Page, but I don't like the current layout since the pictures look pretty out of places.
 
