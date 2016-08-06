@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/menuTemp.css"/>
     <link rel="stylesheet" type="text/css" href="css/servicepage.css"/>
 	<link rel="icon" href="image/Logover1.png"/>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </head>
     <body>
  
@@ -115,7 +117,19 @@
     </div>
   </div>
   
+  <script>
   
+	
+	
+	$(window).scroll(function(){
+    $('#menu').css({
+        'top': $(this).scrollTop() + 0
+    });
+	});
+  
+  
+  
+  </script>
   
   </body>
 </html>

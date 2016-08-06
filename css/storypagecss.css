@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+
+
+
+#mainblock{
+
+	background-color:#efefef;
+	min-height:1200;
+}
+
+.fade_away{
+	
+	width:350px;
+	height:230px;
+	opacity: 0.5;
+	position:absolute;
+	z-index:0;
+	
+}
+
+ #first{
+	
+	left:50px;
+	top:400px;
+	
+	
+}
+
+#third{
+	
+	left:1110px;
+	top:240px;
+}
+
+#second{
+	
+	left:440px;
+	top:950px;
+}
+
+#storytime{
+	
+	
+	text-align:left;
+	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+	font-size:150%;
+	z-index:1;
+}
+
+#storytime h5{
+	text-align:center;
+}
+
+#storytime p{
+	z-index:1;
+}
