@@ -6,7 +6,7 @@
 #mainblock{
 
 	background-color:#efefef;
-	min-height:1200;
+	height:1900px;
 }
 
 .fade_away{
@@ -19,7 +19,7 @@
 	
 }
 
- #first{
+#first{
 	
 	left:50px;
 	top:400px;
@@ -45,13 +45,25 @@
 	text-align:left;
 	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
 	font-size:150%;
-	z-index:1;
+	height:1600px;
+	float:left;
 }
 
 #storytime h5{
 	text-align:center;
 }
 
-#storytime p{
-	z-index:1;
+
+#cn, #en{
+	
+	
+	float:left;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+	font-size:150%;
+	
+	
+}
+#en{
+	font-family:"Comic Sans MS", cursive, sans-serif;
 }

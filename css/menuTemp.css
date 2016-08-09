@@ -23,8 +23,8 @@ nav{
 
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 	font-weight: 800;
-	min-width:1585px;
-	
+	min-width:1580px;
+	width:100%;
 	overflow:visible;
 	
 	
@@ -42,14 +42,19 @@ nav ul{
 	    
 }
 
-#secondhalf, #firsthalf, #firstli{
+#secondhalf, #firsthalf{
 		padding-left:0px;
 	
 }
 
+#firstli{
+	padding-left:10px;
+}
+
+
 nav img{
 	padding-right:0px;
-	padding-left:50px;
+	padding-left:40px;
 	position:relative;
 	width:100px;
 	height:120px;
@@ -57,7 +62,7 @@ nav img{
 
 nav ul li{
 	display:inline;
-	padding-left:70px;
+	padding-left:60px;
 }
 
 nav ul li a {
@@ -129,14 +134,16 @@ body{
 	height:200px;
 	background-color:white;
 	vertical-align:baseline;
-	
+	float:left;
+	min-width:1400px;
+	width:100%;
 
 }
 
 
 #contactinfo{
 	
-	width:70%;
+	width:65%;
 	height:200px;
 	margin:auto;
 	min-width:900px;

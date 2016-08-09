@@ -16,32 +16,34 @@
   </head>
     <body>
  
- <nav id ="menu">
+<nav id ="menu" onscroll="myFunction()">
    <ul id="firsthalf">
-   <li>
+   <li id="firstli">
    <a href="index.html">主頁/Home</a>
    </li>
    <li>
    <a href="missionpage.html">使命/Mission</a>
    </li>
    <li>
-   <a href="servicepage.html">服務/Service</a>
+   <a href="useyourrightpage.html">行使你的權力/Use your Right</a>
    </li>
    </ul>
    
-   <img src="image/Logover1.png" alt ="Cannot Call For Batman Anymore" width="90px" height="80px">
+   <img src="image/Logover1.png" alt ="Cannot Call For Batman anymore" width="90px" height="80px">
    
    <ul id="secondhalf">
    <li>
-   <a href="useyourrightpage.html">行使你的權力/Use your Right</a>
+   <a href="servicepage.html">服務/Service</a>
    </li>
    <li>
-   <a href="contact.html">聯繫方式/Contact Information</a>
+   <a href="storypage.html">歷史故事/History Story</a>
    </li>
-  
+	<li>
+	<a href="">資源/Resources</a>
+	</li>
   
    </ul>
-   </nav>
+</nav>
   
   
    
@@ -117,19 +119,7 @@
     </div>
   </div>
   
-  <script>
-  
-	
-	
-	$(window).scroll(function(){
-    $('#menu').css({
-        'top': $(this).scrollTop() + 0
-    });
-	});
-  
-  
-  
-  </script>
+  <script src="js/menufloat.js" type="text/javascript">  </script>
   
   </body>
 </html>
