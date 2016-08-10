@@ -21,3 +21,5 @@ This is meant to be a simple static website where information are presented to t
 
 - Found a bug/decide flaw that div would overlap which destoryed my formating, an easy fix would be making everything float left which I doubted would be optimal.
 
+8/9/2016
+- Add slidshow feature to storypage.html
