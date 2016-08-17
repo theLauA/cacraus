@@ -14,12 +14,13 @@
 	float:left;
 	text-align:left;
 	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
-	font-size:150%;
+	font-size:25px;
 	
 	
 }
-#mission h1{
+#mission h5{
 	text-align:center;
+	font-size:2em;
 }
 .justalist{
 	display:inline-block;

@@ -1,11 +1,11 @@
 # cacraus
 
-- This is the organized version of testRepo, which is a website for the organization Chinese American Citizen Right Alliance.
+This is the organized version of testRepo, which is a website for the organization Chinese American Citizen Right Alliance.
 
 ##Update Log
 
 8/2/2016
-This is meant to be a simple static website where information are presented to the viewer in a straight forward fashion (defintely not because of my lack of knowledge on JavaScript/JQ).
+- This is meant to be a simple static website where information are presented to the viewer in a straight forward fashion (defintely not because of my lack of knowledge on JavaScript/JQ).
 
 8/5/2016
 - Got the digitalized logo from YuanFei, the designer, so I updated the logo picture for the website and finally added in tab icon. "Accidentally" find a bug where the menu bar won't follow while scored horizontallly since this is how fixed position works.
@@ -23,3 +23,19 @@ This is meant to be a simple static website where information are presented to t
 
 8/9/2016
 - Add slidshow feature to storypage.html
+
+8/15/2016
+- Add a storypageFAKE.html since I am still waiting for the story that is "promised".
+
+- Update the phone number for all pages.
+
+- Add more photos.
+
+- Change the layout of storypageFAKE and I am going to do all the editing on storypageFAKE until I get the story.
+
+8/16/2016
+- I changed my mind so the storypageFAKE will be fake forever, and it will the alternative layout for storypage that I don't like.
+
+- After some researching, I decide to make a grid-like format to display the pictures and texts in storypage, which takes longer than I have expected.
+
+- I do some adjust with the font and title for every page, and realize my gramma is over the place in this little README. Going to put this website live on CACRAUS.ORG
