@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+﻿@CHARSET "UTF-8";
 
 html, body{
 	height:100%;
@@ -35,7 +35,7 @@ nav{
 
 
 nav ul{
-		display:inline;
+            display:inline;
 	    list-style-type: disc;
 	    position:relative;
 	    bottom:70px;
@@ -48,13 +48,13 @@ nav ul{
 }
 
 #firstli{
-	padding-left:10px;
+	padding-left:20px;
 }
 
 
 nav img{
 	padding-right:0px;
-	padding-left:40px;
+	padding-left:30px;
 	position:relative;
 	width:100px;
 	height:120px;
@@ -62,7 +62,7 @@ nav img{
 
 nav ul li{
 	display:inline;
-	padding-left:60px;
+	padding-left:40px;
 }
 
 nav ul li a {
