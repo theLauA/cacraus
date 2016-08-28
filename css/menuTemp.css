@@ -22,7 +22,8 @@ nav{
 	
 
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-	font-weight: 800;
+	font-weight: 700;
+	font-size:18px;
 	min-width:1580px;
 	width:100%;
 	overflow:visible;
@@ -35,10 +36,10 @@ nav{
 
 
 nav ul{
-            display:inline;
+        display:inline;
 	    list-style-type: disc;
 	    position:relative;
-	    bottom:70px;
+	    bottom:80px;
 	    
 }
 
@@ -47,31 +48,35 @@ nav ul{
 	
 }
 
-#firstli{
-	padding-left:20px;
-}
-
 
 nav img{
 	padding-right:0px;
-	padding-left:30px;
+	padding-left:10px;
 	position:relative;
-	width:100px;
-	height:120px;
+	width:110px;
+	height:125px;
 }
 
 nav ul li{
 	display:inline;
-	padding-left:40px;
+	padding-left:30px;
+	
 }
 
 nav ul li a {
 	
-    color: grey;
+    color: rgba(19, 77, 214, 0.78);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
 }
+
+nav ul li a:hover{
+	font-weight:900;
+	color:rgb(6, 33, 99);
+}
+
+
 
 body{
 	background-color: #ebebeb;
@@ -92,7 +97,7 @@ body{
 
 	margin:auto;
 	width:60%;
-	height:1200px;
+	
 	
 	margin-top:60px;
 	z-index=1;
@@ -100,42 +105,15 @@ body{
 
 
 
-.logoname{
-    height:300px;
-    display:inline;
-	position:relative;
-	bottom: 30px;
-	font-size:300%;
-	float:left;
-	margin-top:70px;
-	word-wrap: break-word;
-	white-space: pre-line;
-	
-	
-}
 
-#enpart{
-	
-	font-style: italic;
-	font-family: cursive;
-}
 
-#chpart{
-	font-family: Georgia, "Times New Roman", "FangSong", "仿宋", STFangSong, "华文仿宋", serif;
-}
-
-#banner{
-	
-	height:650px;
-	width:950px;
-}
 
 #footer{
 	height:200px;
 	background-color:white;
 	vertical-align:baseline;
 	float:left;
-	min-width:1400px;
+	min-width:1580px;
 	width:100%;
 
 }
