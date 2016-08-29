@@ -41,3 +41,8 @@ This is the organized version of testRepo, which is a website for the organizati
 - I do some adjust with the font and title for every page, and realize my gramma is over the place in this little README. Going to put this website live on CACRAUS.ORG
 
 - It is live on CACRAUS.ORG and CACRAUS.COM is linked to CACRAUS.ORG
+
+8/28/2016
+- Fixed a typo here to prevent README to be fully shown on github
+
+- Give the website more color and Update the logo AGAIN
