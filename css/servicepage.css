@@ -3,33 +3,50 @@
 
 
 
-#mainblock{
-
-	background-color:#efefef;
-}
-
-#mission{
+#service{
+	
+	color: black;
 	
 	
-	float:left;
-	text-align:left;
 	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
-	font-size:25px;
 	
+	font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    text-indent: 36px;
 	
+	width:100%;
 }
-#mission h5{
+
+#lists{
+	
+	width:1200px;
+}
+#enlist{
+	
+    font-family: 'Alegreya Sans';
+   
+}
+
+h5{
 	text-align:center;
 	font-size:2em;
 	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #e0354c;
 }
+
+
 .justalist{
 	display:inline-block;
 	list-style-type:none;
 }
 
+#cnlist{
+	
+	padding:0px;
+}
 
 #enlist{
 	
-	padding-left:160px;
+	padding-left:30px;
 }
