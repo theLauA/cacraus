@@ -9,8 +9,10 @@
 	width:90%;
 	margin:auto;
 	min-width:1450px;
+	max-width:1450px;
 	height:500px;
 	margin-bottom:100px;
+	margin-top:50px;
 }
 
 #banner{
@@ -43,6 +45,7 @@
 	color:#2b0606;
 	text-align:center;
 	margin:0px;
+	margin-bottom:20px;
 }
 #enpart{
 	
@@ -53,5 +56,10 @@
 	font-weight: bold; 
 	letter-spacing: -1px; 
 	line-height: 1; 
-	
+	margin-top:0;
+	margin-bottom:20px;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
 }

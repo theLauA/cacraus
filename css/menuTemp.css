@@ -1,7 +1,7 @@
 ﻿@CHARSET "UTF-8";
 
 html, body{
-	height:100%;
+	
 }
 
 
@@ -12,21 +12,20 @@ nav{
 	left: 0;
     top: 0;
     
-	position:absolute;
-	
-	width:100%;
-	height:60px;
-	background:white;
-	z-index:999;
 	
 	
 
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 	font-weight: 700;
-	font-size:18px;
+	font-size: 1.2em;
+	max-width:fit-content;
 	min-width:1580px;
-	width:100%;
+	width:95%;
+	
+	margin:auto;
 	overflow:visible;
+	
+	height:100%;
 	
 	
 	
@@ -36,7 +35,7 @@ nav{
 
 
 nav ul{
-        display:inline;
+        display:inline-block;
 	    list-style-type: disc;
 	    position:relative;
 	    bottom:90px;
@@ -51,15 +50,20 @@ nav ul{
 
 nav img{
 	padding-right:0px;
-	padding-left:10px;
-	position:relative;
+	padding-left:5px;
+
 	width:110px;
 	height:125px;
 }
 
+#MI{
+	display:inline-block;
+}
+
+
 nav ul li{
 	display:inline;
-	padding-left:40px;
+	padding-left:30px;
 	
 }
 
@@ -71,6 +75,7 @@ nav ul li a {
     border-radius: 4px 4px 0 0;
     border-bottom: 0px solid transparent; 
 	transition: 0.5s ease;
+	
 }
 
 nav ul li a:hover{
@@ -85,11 +90,15 @@ body{
 	background-color: #ebebeb;
 	
 	width:100%;
+	min-width:fit-content;
 	padding:0px;
 	margin:0px;
+	
 	height:100%;
-	vertical-align:baseline;
-	min-width:1339px;
+	
+	
+	
+	
 	
 }
 
@@ -108,26 +117,34 @@ body{
 
 
 
-
+#footercontainer{
+	height:250px;
+	width:100%;
+	background-color:white;
+	
+}
 
 
 #footer{
-	height:200px;
+	height:100%;
 	background-color:white;
-	vertical-align:baseline;
-	float:left;
-	min-width:1580px;
-	width:100%;
+	
 
+	min-width:1580px;
+	max-width:fit-content;
+	width:80%;
+	margin:auto;
+    
 }
 
 
 #contactinfo{
 	
-	width:65%;
-	height:200px;
+	width:fit-content;
+	height:250px;
+	
+	
 	margin:auto;
-	min-width:900px;
 	
 }
 
@@ -137,9 +154,10 @@ body{
 #address, #contact, #brochure{
 	text-align:left;
 	display:inline;
-	width:300px;
+	width:310px;
 	height:200px;
-	
+	margin-top:25px;
+	margin-bottom:25px;
 	
 	float:left;
 	font-family: Arial, Helvetica, tahoma, verdana, 宋体, SimSun, 华文细黑, STXihei, sans-serif;
@@ -152,12 +170,30 @@ body{
 	font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
 }
 
-.mb{
-	min-width:900px;
-	z-index=1;
+#contact, #address{
+	
+	border-left:2px solid;
+	padding-left:5px;
+}
+
+#menu{
+	width:100%;
+	
+	min-width:1600px;
+	
+    position:absolute;
+	
+	top:0;
+	
+	height:60px;
+	background:white;
+	z-index:999;
+	
 }
 
 
-
-
+#contactinfo span{
+	width:300px;
+	display:block;
+}
 

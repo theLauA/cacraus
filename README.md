@@ -46,3 +46,10 @@ This is the organized version of testRepo, which is a website for the organizati
 - Fixed a typo here to prevent README to be fully shown on github
 
 - Give the website more color and Update the logo AGAIN
+
+8/29/2016
+- Found out that when screen size changed/shrinked, the format is generally destory.
+
+- IMOPORTANT !!! fit-content value for width is very useful, and it ultimately fixed the menu bar shrinking problem.
+
+- Fixed the footer with similar css.

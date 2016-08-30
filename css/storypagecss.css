@@ -106,10 +106,10 @@
 
 #storytime{
 	border-style:solid;
-	float:left;
+	float:center;
 	width:1500px;
 	height:660px;
-	margin-left:30px;
+	margin:auto;
 	border-color:white;
 }
 
