@@ -86,6 +86,9 @@ nav ul li a:hover{
 
 
 
+
+
+
 body{
 	background-color: #ebebeb;
 	
@@ -118,16 +121,16 @@ body{
 
 
 #footercontainer{
-	height:250px;
+	height:400px;
 	width:100%;
-	background-color:white;
+	background-color:grey;
 	
 }
 
 
 #footer{
 	height:100%;
-	background-color:white;
+	background-color:grey;
 	
 
 	min-width:1580px;
@@ -141,7 +144,7 @@ body{
 #contactinfo{
 	
 	width:fit-content;
-	height:250px;
+	height:350px;
 	
 	
 	margin:auto;
@@ -152,7 +155,7 @@ body{
 
 
 #address, #contact, #brochure{
-	text-align:left;
+	
 	display:inline;
 	width:310px;
 	height:200px;
@@ -161,13 +164,19 @@ body{
 	
 	float:left;
 	font-family: Arial, Helvetica, tahoma, verdana, 宋体, SimSun, 华文细黑, STXihei, sans-serif;
+	
+	color:white;
+	font-size:1em;
 }
+
 
 #footer h1,#footer h2,#footer h3{
 	margin-top:10px;
 	margin-bottom:10px;
-	font-size:170%;
+
 	font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+	text-align:center;
+	font-size:1em;
 }
 
 #contact, #address{
@@ -195,5 +204,26 @@ body{
 #contactinfo span{
 	width:300px;
 	display:block;
+
+	text-align:center;
+	
+	 line-height: 30px;
+    
+	
 }
 
+#contact span{
+	text-align:left;
+	
+	
+}
+
+#contactinfo span img{
+	
+	width:35px;
+	height:35px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:5px;
+	margin-right:5px;
+}
