@@ -53,3 +53,10 @@ This is the organized version of testRepo, which is a website for the organizati
 - IMOPORTANT !!! fit-content value for width is very useful, and it ultimately fixed the menu bar shrinking problem.
 
 - Fixed the footer with similar css.
+
+9/2/2016
+- After reading lot of examples online, I settle with a book tags design for the aboutus page and the resources page.
+
+- And by that, I learned about border-radius, line gradient, and after/before. Those are very cool css properties.
+
+- Applies the footer design change to every pages, change the logo to the color one.
