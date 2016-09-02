@@ -63,6 +63,11 @@
   text-shadow: 0 1px 0 rgba(255,255,255,.8);
   border-radius: 5px 0 0 0;
   box-shadow: 0 2px 2px rgba(0,0,0,.4);
+  font-size:1.4em;
+  font-weight:bold;
+  letter-spacing:3px;
+ 
+  font-family:Verdana, Geneva, sans-serif;
 }
 
 #tabs a:hover,
@@ -100,4 +105,36 @@
 #content{
 	width:100%;
 	height: 1100px;
+}
+
+.staff{
+	
+	height:200px;
+	width:100%;
+	font-size:1.2em;
+	line-height:30px;
+	letter-spacing:4px;
+	font-style:italic;
+	
+}
+
+
+#Name{
+	font-family:georgia, serif;
+   color:#A90466;
+   font-size:1.3em;
+   font-weight:bold;
+   letter-spacing:.1em;
+   text-transform:uppercase;
+   padding-bottom:3px;
+	
+}
+
+#jobtitle{
+	font-family:Papyrus,fantasy;
+	letter-spacing:0.1em;
+	line-height:35px;
+	font-weight:800;
+	color:#071977;
+	font-size:1.22em;
 }

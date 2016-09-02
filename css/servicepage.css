@@ -39,14 +39,30 @@ h5{
 .justalist{
 	display:inline-block;
 	list-style-type:none;
+	font-size:20px;
+	font-weight:200;
+	line-height:36px;
+	text-indent:40px;
+	text-align:left;
+	
 }
 
-#cnlist{
-	
-	padding:0px;
+.justalist li{
+	background:linear-gradient(141deg, #DADADA 0%, #93D5DC 51%, #94DAF5 75%);
+	color: #CA1515;
+	opacity: 0.95;
+	margin:4px;
+	position:relative;
 }
 
-#enlist{
-	
-	padding-left:30px;
+.justalist li::before{
+	content: "~";
+	color:#CA1515;
+ 
+	position:absolute;
+	left:-1.5em;
+}
+
+#mainblock{
+	height:2800px;
 }

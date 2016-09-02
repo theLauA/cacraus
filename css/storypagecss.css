@@ -6,7 +6,7 @@
 #mainblock{
 
 	background-color:#efefef;
-	height:100px;
+	height:1600px;
 }
 
 .fade_away{
@@ -37,12 +37,6 @@
 	
 	left:440px;
 	top:950px;
-}
-
-
-#storytime h5, #storytime h6{
-	text-align:center;
-	font-size:2em;
 }
 
 
@@ -105,12 +99,12 @@
 }
 
 #storytime{
-	border-style:solid;
-	float:center;
-	width:1500px;
-	height:660px;
+	
+
+	width:100%;
+	
 	margin:auto;
-	border-color:white;
+	
 }
 
 .right, .left , .mid{
@@ -135,37 +129,76 @@
 .mid{
 	width:290px;
 }
-.part{
-	width:100%;
-	border:solid;
-	border-color:white;
-}
+
 
 #partone{
-	
-	height:400px;
-	overflow-y:scroll;
-	border:none;
+	width:70%;
+	float:center;
+	margin:auto;
 }
 
-::-webkit-scrollbar {
-      width: 15px;
-}
 
 #parttwo{
 	height:260px;
 }
 
-#partthree,#partfour,#partfive{
-	height:214px;
-}
+
 
 .mySlides1,.mySlides2,.mySlides3{
-	height:214px;
+	height:200px;
 }
 
-#justsomeblankspaces{
-	float:left;
-	height:50px;
+
+
+#storytitle img { 
+
+   width: 100%; /* for IE 6 */
+}
+
+h5{ 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   font-size:1.5em;
+   color:white;
+}
+h5 span{
+   color: white; 
+   font: bold 26px/50px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+   letter-spacing:5px;
+}
+#storytitle{
 	width:100%;
+	position:relative;
+	margin-top:150px;
+	
+}
+
+p{
+	text-align:left;
+	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+	
+	font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    text-indent: 36px;
+
+}
+
+.part{
+	
+	width:300px;
+	height:200px;
+	float:left;
+}
+
+#ss{
+	width:900px;
+	margin:auto;
+	height:200px;
 }
