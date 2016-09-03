@@ -60,3 +60,5 @@ This is the organized version of testRepo, which is a website for the organizati
 - And by that, I learned about border-radius, line gradient, and after/before. Those are very cool css properties.
 
 - Applies the footer design change to every pages, change the logo to the color one.
+
+- Added the resources page, but forogot to link it to the menu.
