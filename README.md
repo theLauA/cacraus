@@ -62,3 +62,8 @@ This is the organized version of testRepo, which is a website for the organizati
 - Applies the footer design change to every pages, change the logo to the color one.
 
 - Added the resources page, but forogot to link it to the menu.
+
+9/3/2016
+- Changed the style of the menu bar as requested, also updated the font for the organization name.
+
+- Minor changes in spacing of footer,
