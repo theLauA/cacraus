@@ -110,24 +110,29 @@ body{
 
 #mainblock{
 	
+	
+	width:100%;
+	
+	min-width:1580px;
+	
+	background-color: #ebebeb;
+	
+	
+}
+
+.mb{
 	width:948px;
 	width:60%;
 	margin-left:250px;
 	margin-left:auto;
 	margin-right:auto;
-	
-	
-	
-	
-	z-index:1;
-	
 	min-width:948px;
 	max-width:949px;
 	background-color: #efefef;
 	position:relative;
+	height:100%;
+	
 }
-
-
 
 #footercontainer{
 	height:390px;

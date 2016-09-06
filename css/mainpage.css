@@ -1,12 +1,12 @@
 @CHARSET "UTF-8";
 
 
-.mb{
+#mainblock{
 	height:650px;
-	min-width:948px;
-	max-width:949px;
-	
 }
+
+
+
 
 .banner{
 	width:90%;
