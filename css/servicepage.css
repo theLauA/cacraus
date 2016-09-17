@@ -1,15 +1,19 @@
 @CHARSET "UTF-8";
 
 
+/*Main Content Container*/
+#mainblock{
+	height:3460px;
+}
 
-
+/* Content*/
 #service{
-	
-	
 	
 	width:100%;
 }
 
+
+/*List of Service*/
 #lists{
 	
 	width:1200px;
@@ -20,6 +24,17 @@
    
 }
 
+/* Title Divition,
+   Chinese Version
+*/
+#servicetitle1{
+	width:100%;
+	position:relative;
+	padding-top:140px;
+	height:490px;
+	
+}
+/* Format for background image*/
 #servicetitle1 img{ 
 
    width: 100%; 
@@ -28,7 +43,7 @@
    padding:0px;
    display:inline-block;
 }
-
+/* Font format for header*/
 h6{ 
    position: absolute; 
    top: 380px; 
@@ -48,14 +63,20 @@ h6 span{
    padding: 10px; 
 
 }
-#servicetitle1{
+
+/* Title Divition,
+   English Version
+*/
+#servicetitle2{
 	width:100%;
 	position:relative;
-	padding-top:140px;
+	padding-top:80px;
 	height:490px;
 	
 }
-
+/*
+  Background Image
+*/
 #servicetitle2 img{ 
 
    width: 100%; 
@@ -64,7 +85,7 @@ h6 span{
    padding:0px;
    display:inline-block;
 }
-
+/* Font format for header*/
 h5{ 
    position: absolute; 
    top: 380px; 
@@ -84,14 +105,11 @@ h5 span{
    padding: 10px; 
 
 }
-#servicetitle2{
-	width:100%;
-	position:relative;
-	padding-top:80px;
-	height:490px;
-	
-}
 
+/*
+	Lists of Service,
+	General Format
+*/
 .justalist{
 	display:inline-block;
 	list-style-type:none;
@@ -102,7 +120,9 @@ h5 span{
 	text-align:left;
 	
 }
-
+/*
+   Background Color
+*/
 .justalist li{
 	background:linear-gradient(141deg, #DADADA 0%, #93D5DC 51%, #94DAF5 75%);
 	color: #CA1515;
@@ -110,7 +130,9 @@ h5 span{
 	margin:4px;
 	position:relative;
 }
-
+/*
+   Costume list format
+*/
 .justalist li::before{
 	content: "~";
 	color:#CA1515;
@@ -118,11 +140,9 @@ h5 span{
 	position:absolute;
 	left:-1.5em;
 }
-
-#mainblock{
-	height:3460px;
-}
-
+/* 
+	Font Format
+*/
 #cnlist, #enlist{
 	color: black;
 	

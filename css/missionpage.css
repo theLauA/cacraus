@@ -2,15 +2,15 @@
 
 
 
-
+/* Main Content Container*/
 #mainblock{
 
 	
 	height:1360px;
 }
 
-
-
+/* Main contents/Text*/
+/* Genral Font Format*/
 #cn, #en{
 	
 	color: black;
@@ -27,12 +27,13 @@
 	width:90%;
 	margin:auto;
 }
+/* Specified Font Format for english part*/
 #en{
 
     font-family: 'Alegreya Sans';
    
 }
-
+/* Specified Font Format for headers*/
 #cn h5,#en h6{
 	text-align:center;
 	font-size:2em;
@@ -40,6 +41,9 @@
 	color: #e0354c;
 }
 
+/* Tabs*/
+/* Locate on top of the content*/
+/* General formate*/
 #tabs {
   overflow: hidden;
   width: 100%;
@@ -48,12 +52,13 @@
   list-style: none;
   padding-top:160px;
   }
-
 #tabs li {
   float: left;
   margin: 0 .5em 0 0;
 }
-
+/* Tab contents*/
+/* Font format, Line spacing, 
+   and tab shape*/
 #tabs a {
   position: relative;
   background: #ddd;
@@ -71,18 +76,24 @@
  
   font-family:Verdana, Geneva, sans-serif;
 }
-
+/*
+  The ::after and ::before will attach
+  to the end and front of the tab, 
+  giving tabs the folder tab shape
+*/
+/*
+  Formatting hover effect so it will be consistent
+  in tabs, ::after, ::before
+*/
 #tabs a:hover,
 #tabs a:hover::after,
 #tabs a:focus,
 #tabs a:focus::after {
   background: #fff;
 }
-
 #tabs a:focus {
   outline: 0;
 }
-
 #tabs a::after {
   content:'';
   position:absolute;
@@ -97,18 +108,24 @@
   transform: skew(10deg);
   border-radius: 0 5px 0 0;  
 }
-
 #tabs #current a,
 #tabs #current a::after {
   background: #fff;
   z-index: 3;
 }
 
+
+/* Container of the main content
+   Allow user to hide part of the content when
+   corresponding tab is clicked
+*/
 #content{
 	width:100%;
 	height: 1100px;
 }
 
+/* Staff Info Content*/
+/* General Formate/Dimension*/
 .staff{
 	
 	height:200px;
@@ -119,8 +136,7 @@
 	font-style:italic;
 	
 }
-
-
+/* General font format*/
 #Name{
 	font-family:georgia, serif;
    color:#A90466;
@@ -131,7 +147,7 @@
    padding-bottom:3px;
 	
 }
-
+/* Specified font format*/
 #jobtitle{
 	font-family:Papyrus,fantasy;
 	letter-spacing:0.1em;

@@ -2,44 +2,16 @@
 
 
 
-
+/* Main Content Caintener*/
 #mainblock{
 
 	
 	height:1660px;
 }
 
-.fade_away{
-	
-	width:350px;
-	height:230px;
-	opacity: 0.5;
-	position:absolute;
-	z-index:0;
-	
-}
-
-#first{
-	
-	left:50px;
-	top:400px;
-	
-	
-}
-
-#third{
-	
-	left:1110px;
-	top:240px;
-}
-
-#second{
-	
-	left:440px;
-	top:950px;
-}
 
 
+/* General font format for contents*/
 #cn, #en{
 	
 	
@@ -54,7 +26,9 @@
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
+
 /* Slideshow container */
+/* Place at the bottom of the content*/
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -63,7 +37,9 @@
   
 }
 
-/* Caption text */
+/* Caption text 
+   Not use, save for future 
+*/
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -74,12 +50,19 @@
   text-align: center;
   display:none;
 }
-
 .slidepic{
 	height:100%;
 	width:100%;
 }
-
+.mySlides1,.mySlides2,.mySlides3{
+	height:200px;
+}
+.part{
+	
+	width:300px;
+	height:200px;
+	float:left;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -87,17 +70,17 @@
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 
+
+/* Contents*/
 #storytime{
 	
 
@@ -107,30 +90,7 @@
 	
 }
 
-.right, .left , .mid{
-	
-	height:100%;
-	display:inline-block;
-}
-
-.left{
-	
-	background-color:white;
-	float:left;
-	width:720px;
-	
-}
-
-.right{
-	width:480px;
-	
-}
-
-.mid{
-	width:290px;
-}
-
-
+/* Paragraphs of Story*/
 #partone{
 	width:70%;
 	float:center;
@@ -138,27 +98,25 @@
 }
 
 
-#parttwo{
-	height:260px;
+
+
+/* Title Container*/
+#storytitle{
+	width:100%;
+	position:relative;
+	padding-top:140px;
+	
 }
-
-
-
-.mySlides1,.mySlides2,.mySlides3{
-	height:200px;
-}
-
-
-
+/* Background image*/
 #storytitle img { 
 
    width: 100%; /* for IE 6 */
    height: 490px;
 }
-
+/* Header/Title*/
 h5{ 
    position: absolute; 
-   top: 235px; 
+   top: 400px; 
    left: 0; 
    width: 100%; 
    font-size:1.5em;
@@ -173,13 +131,10 @@ h5 span{
    padding: 10px; 
    letter-spacing:5px;
 }
-#storytitle{
-	width:100%;
-	position:relative;
-	padding-top:140px;
-	
-}
 
+
+
+/* Font format of the paragraphs*/
 p{
 	text-align:left;
 	font-family: Georgia, "Times New Roman", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
@@ -191,12 +146,7 @@ p{
 
 }
 
-.part{
-	
-	width:300px;
-	height:200px;
-	float:left;
-}
+
 
 #ss{
 	width:900px;

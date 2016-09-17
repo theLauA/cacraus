@@ -2,13 +2,14 @@
 
 
 
-
+/* Main Content Containers*/
 #mainblock{
 
 
 	height:2860px;
 }
 
+/* General font format for contents*/
 #cn, #en{
 	
 	color: black;
@@ -31,12 +32,14 @@
    
 }
 
+/* Titles*/
+/* Background iamge*/
 #righttitle1 img, #righttitle2 img{ 
 
    width: 100%; /* for IE 6 */
    height: 490px;
 }
-
+/* Headers*/
 h5, h6{ 
    position: absolute; 
    top: 400px; 
@@ -54,6 +57,7 @@ h5 span, h6 span{
    padding: 10px; 
    letter-spacing:5px;
 }
+/* Containers*/
 #righttitle1, #righttitle2{
 	width:100%;
 	position:relative;

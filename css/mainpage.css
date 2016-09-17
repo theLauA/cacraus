@@ -1,13 +1,16 @@
 @CHARSET "UTF-8";
 
 
+
+/* Main Content Container*/
 #mainblock{
 	height:650px;
 }
 
 
 
-
+/* Compnay Name Container*/
+/* Dimension Setting*/
 .banner{
 	width:90%;
 	margin:auto;
@@ -17,13 +20,12 @@
 	margin-bottom:200px;
 	margin-top:50px;
 }
-
 #banner{
 	
 	width:100%;
 	height:100%;
 }
-
+/* Line spacing format for Comapny Name*/
 .logoname{
     height:500px;
     display:inline;
@@ -42,8 +44,8 @@
 	
 	
 }
-
-
+/* Font format*/
+/* Chinese Company Name*/
 #chpart{
 	font-family: Georgia, "Times New Roman", "FangSong", "仿宋", STFangSong, "华文仿宋", serif;
 	font-size:100px;
@@ -52,6 +54,7 @@
 	margin:0px;
 	margin-bottom:20px;
 }
+/* English Company Name*/
 #enpart{
 	
 	

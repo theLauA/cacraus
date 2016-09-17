@@ -4,7 +4,29 @@ html, body{
 	
 }
 
+/* The navigation/menu part */
+/* Just A Container That contains the contents of menu */
+/* Always stay top, and on top of other contents 
+   Cover full width of the screen */
+#menu{
+	width:100%;
+	
+	min-width:1600px;
+	
+    position:absolute;
+	
+	top:0;
+	
+	height:60px;
+	background:white;
+	z-index:999;
+	
+}
 
+/* Navigation divition */
+
+/* General font format inside nav,
+   Always be at the center of the screen */
 nav{
 	
 	display:block;
@@ -34,7 +56,8 @@ nav{
 	
 }
 
-
+/* Units inside nav,
+   styles, position*/
 nav ul{
         display:inline-block;
 	    list-style-type: disc;
@@ -43,11 +66,20 @@ nav ul{
 	    
 }
 
+/* lists inside nav,
+   menu bar are represented and break down into two lists*/
 #secondhalf, #firsthalf{
 		padding-left:0px;
 	
 }
 
+
+/* Locates betwen #secondhalf and #firsthalf
+	Contains an image
+*/
+#MI{
+	display:inline-block;
+}
 
 nav img{	
 	
@@ -57,17 +89,17 @@ nav img{
 	height:125px;
 }
 
-#MI{
-	display:inline-block;
-}
 
 
+/* General format for each list item in nav tag*/
 nav ul li{
 	display:inline;
 	padding-left:20px;
 	
 }
 
+/* Contents of list items*/
+/* General format*/
 nav ul li a {
 	
     color: rgb(43, 6, 6);
@@ -79,7 +111,7 @@ nav ul li a {
 	transition: 0.5s ease;
 	
 }
-
+/*Hover Effect*/
 nav ul li a:hover{
 	font-weight:900;
 	color:blue;
@@ -88,10 +120,10 @@ nav ul li a:hover{
 }
 
 
-
-
-
-
+/* Whole Website Body/Content,
+   background color,
+   size modification
+*/
 body{
 	background-color: #ebebeb;
 	
@@ -108,6 +140,8 @@ body{
 	
 }
 
+/* Main Content */
+/* General Format on size and background color*/
 #mainblock{
 	
 	
@@ -119,7 +153,7 @@ body{
 	
 	
 }
-
+/* Restriction on position and size*/ 
 .mb{
 	width:948px;
 	width:60%;
@@ -134,6 +168,7 @@ body{
 	
 }
 
+/* Div just to keep footer divition center*/
 #footercontainer{
 	height:390px;
 	width:100%;
@@ -141,7 +176,7 @@ body{
 	
 }
 
-
+/* Div wrap all footer content*/
 #footer{
 	height:100%;
 	background-color:grey;
@@ -154,7 +189,8 @@ body{
     
 }
 
-
+/* Footer content*/
+/* Genral format on size*/
 #contactinfo{
 	
 	width:944px;
@@ -165,10 +201,7 @@ body{
 	margin:auto;
 	
 }
-
-
-
-
+/* Genral format on font*/
 #address, #contact, #brochure{
 	
 	display:inline;
@@ -183,8 +216,7 @@ body{
 	color:white;
 	font-size:1em;
 }
-
-
+/* General format on headers*/
 #footer h1,#footer h2,#footer h3{
 	margin-top:10px;
 	margin-bottom:10px;
@@ -193,29 +225,14 @@ body{
 	text-align:center;
 	font-size:1em;
 }
-
+/* Special format setting*/ 
 #contact, #address{
 	
 	border-left:2px solid;
 	padding-left:5px;
 }
 
-#menu{
-	width:100%;
-	
-	min-width:1600px;
-	
-    position:absolute;
-	
-	top:0;
-	
-	height:60px;
-	background:white;
-	z-index:999;
-	
-}
-
-
+/* Genral format for line spacing*/
 #contactinfo span{
 	width:300px;
 	display:block;
@@ -226,13 +243,13 @@ body{
     
 	
 }
-
 #contact span{
 	text-align:left;
 	
 	
 }
 
+/* Genral format for icons in #contactinfo*/
 #contactinfo span img{
 	
 	width:35px;
@@ -243,7 +260,7 @@ body{
 	margin-right:5px;
 }
 
-
+/* Statement for Company Type*/
 #companytag{
 	width:100%;
 	text-align:center;
