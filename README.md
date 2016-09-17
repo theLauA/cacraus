@@ -1,6 +1,8 @@
 # cacraus
 
 This is the organized version of testRepo, which is a website for the organization Chinese American Citizen Right Alliance.
+Host: Github
+Website: www.cacraus.org/www.cacraus.com
 
 ##Update Log
 
