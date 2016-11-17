@@ -1,6 +1,7 @@
 #jumbotron1{
   background-image: url("../img/storypic16.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
   color:white;
   min-height: 400px;
   padding-left:10px;
@@ -22,9 +23,22 @@ p.lead {
   padding-right:80px;
   padding-top:40px;
   font-size: 1.9em;
-  
+
 }
 
+div.item.active{
+  height: 500px;
+}
+
+.carousel-inner>.item>img{
+  height: 100%;
+  width : 100%;
+}
+
+#myCarousel{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 /*
   Adjust jumbotron's styling for mobile
@@ -42,5 +56,8 @@ p.lead {
     font-size: 1.5em;
     padding-left:20px;
     padding-right:20px;
+  }
+  div.item.active{
+    height: 200px;
   }
 }
