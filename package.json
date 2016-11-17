@@ -1,0 +1,11 @@
+{
+  "name": "cacraus",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "./node_modules/.bin/http-server -c-1"
+  },
+  "author": "John Vilk <jiananliu@umass.edu>",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}

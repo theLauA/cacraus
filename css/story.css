@@ -1,0 +1,46 @@
+#jumbotron1{
+  background-image: url("../img/storypic16.jpg");
+  background-size: 100%;
+  color:white;
+  min-height: 400px;
+  padding-left:10px;
+  padding-bottom: 0px;
+  padding-top: 30%;
+  font-weight: bold;
+}
+
+#jumbotron1 h1{
+  color:white;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'cwTeXMing', serif;
+}
+
+p.lead {
+  font-family: 'cwTeXYen', sans-serif;
+  padding-left:80px;
+  padding-right:80px;
+  padding-top:40px;
+  font-size: 1.9em;
+  
+}
+
+
+/*
+  Adjust jumbotron's styling for mobile
+  Adjust font size
+*/
+@media screen and (max-width: 650px){
+  #jumbotron2,#jumbotron1{
+    min-height: 0;
+    background-repeat: no-repeat;
+  }
+  #jumbotron2 h1,#jumbotron1 h1{
+    font-size: 50px;
+  }
+  p.lead,.en,#right_list,#right_list_en{
+    font-size: 1.5em;
+    padding-left:20px;
+    padding-right:20px;
+  }
+}

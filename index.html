@@ -1,113 +1,104 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head;
+    any other head content must come *after* these tags -->
     <title>Chinese American Citizen Right Alliance</title>
-	
-    <meta name="keywords" content="keyword1,keyword2,keyword3">
-    <meta name="description" content="this is my page">
-    <meta name="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8" />
-    
-    <link rel="stylesheet" type="text/css" href="css/menuTemp.css"/>
-    <link rel="stylesheet" type="text/css" href="css/mainpage.css"/>
-	<link rel="icon" href="image/Logover1.png"/>
-	
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	
-	
+    <!-- Bootstrap's CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Logover2.png">
   </head>
-    <body>
+  <body>
+    <!-- All of your HTML will go between here.... -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
 
-  
-	<div id="menu" onscroll="myFunction()">
-   <nav >
-   <ul id="firsthalf">
-   <li id="firstli">
-   <a href="index.html">主頁/Home</a>
-   </li>
-   <li>
-   <a href="missionpage.html"" class="dropbtn" onclock="js/dropdown()">關於我們/About US</a>
-    
-   </li>
-   <li>
-   <a href="useyourrightpage.html">行使你的權力/Exercise your Right</a>
-   </li>
-   </ul>
-   
-   <div id="MI">
-   <img src="image/Logover2.png" alt ="Cannot Call For Batman anymore" width="90px" height="80px">
-   </div>
-   <ul id="secondhalf">
-   <li>
-   <a href="servicepage.html">服務/Service</a>
-   </li>
-   <li>
-   <a href="storypage.html">社區故事/Community Story</a>
-   </li>
-	<li>
-	<a href="resources.html">資源/Resources</a>
-	</li>
-  
-   </ul>
-</nav>
- </div>
-  
-   
-   <div id ="mainblock">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse"
+                            data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-    <div class="mb">
-   
- 
-   <div class = "logoname">  
-   <h6 id="enpart">Chinese American Citizen Right Alliance</h6>
-   <br>
-   <h5 id="chpart">美國華人權益會</h5>
-   </div>
-   
-   </div>
-   
-   
-  
-   </div>
-    
-    
-	<div class="banner">
-	<img id="banner" src="image/banner2.png" alt="要為華人的地位更上一層樓">
-	</div>
-  
-   
-<div id="footercontainer"> 
-   <div id ="footer">
-   	<div id = "contactinfo">
-     
-   		  	<div id="brochure">
-     	  	<h3>Brochure/傳單</h3>
-      	  	<span><a href="other/brochureEx.pdf" target="_blank">Download/下載</a></span>
-            </div>
-     
-     		<div id="address">
-			<h1>Location/地址</h1>
-			<span>Chinese American Citizen Right Alliance</span>
- 			<span>美國華人權益會</span>
-     		<span>16 Harvard St.</span>
-     		<span>Quincy, MA, 02171</span>
-      		</div>
-     		<div id="contact">
-      		<h2>Contact Info/聯繫方式</h2>
-      		 <span><img src="image/gmailicon.png" alt="Email" >电子邮箱:cacraus@gmail.com</span>
-      		<span><img src="image/phoneicon.png" alt="Phone" >电话号码:617-712-9923</span>
-			<span><img src="image/wechaticon.png" alt="WeChat" >微信：cacraus</span>
-			<span><img src="image/fbicon.jpg" alt="FaceBook" >臉書:</span>
-  		    </div>
-   
-    </div>
-	<div id="companytag">A 501 (C) 3 Non-Profit Organization</div>
-  </div>
-  </div>
-   
-  <script src="js/menufloat.js" type="text/javascript">  </script>
-   
-  </div>
+          <a class="navbar-brand" href="#">
+           <img src="img/Logover1.png">
+          </a>
+        </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <!-- Menu BAR / LINKS. -->
+
+          <ul class="nav nav-tabs">
+            <li role="presentation" class="active">
+              <a href="#">主頁 :: Home</a>
+            </li>
+            <li role="presentation">
+              <a type="button" class="dropdown-toggle"
+                 data-toggle="dropdown">
+                關於我們 :: About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="mission.html">使命 :: Mission</a></li>
+                <li><a href="boardmember.html">董事会 :: Board Member</a></li>
+              </ul>
+            </li>
+            <li role="presentation">
+              <a href="right.html">行使你的權力 :: Exercise Your Right</a>
+            </li>
+            <li role="presentation">
+              <a href="service.html">服務 :: Service</a>
+            </li>
+            <li role="presentation">
+              <a href="story.html">社區故事 :: Community Story</a>
+            </li>
+            <li role="presentation">
+              <a type="button" class="dropdown-toggle"
+                 data-toggle="dropdown">
+                資源 :: Resources
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="resources1.html">登记状态 :: Registration Status</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!-- Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+          <div id="imgcontainer">
+              <img src="img/Logover2.png" alt="Chinese American Right Alliance"/>
+          </div>
+        </div>
+      </div> <!--row-->
+
+      <div class="row">
+        <div class="col-lg-9 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+          <img src="img/banner2.png" alt="For voting right" id="bannerpic">
+        </div>
+      </div>
+
+      <div class="row text-center" >
+        <button type="button" class="btn btn-default" aria-label="Left Align" id="centerbutton">
+          Learn More :: 了解更多
+        </button>
+      </div><!--row-->
+    </div><!--container-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below),
+    or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
