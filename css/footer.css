@@ -27,21 +27,21 @@ footer{
 }
 
 /*Custom glyphicons*/
-.glyphicon-wechat{
+.glyphicon-gmail{
   content:url("../img/gmailicon.png");
   width:35px;
   height:35px;
   vertical-align: text-bottom;
 }
 
-.glyphicon-gmail{
+.glyphicon-phone{
   content:url("../img/phoneicon.png");
   width:35px;
   height:35px;
   vertical-align: text-bottom;
 }
 
-.glyphicon-phone{
+.glyphicon-wechat{
   content:url("../img/wechaticon.png");
   width:35px;
   height:35px;
