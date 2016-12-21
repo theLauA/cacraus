@@ -26,7 +26,7 @@ body{
 
 
 /* Change collapse break point*/
-@media (min-width:768px) and (max-width:1499px) {
+@media (min-width:768px) and (max-width:1200px) {
   .navbar-header {
      float: none;
      width:100%;
@@ -92,7 +92,7 @@ body{
 /*Tool Bar Position*/
 #navbar-collapse-1>ul li{
   padding-top: 1px;
-  font-size:1.3em;
+  font-size:1em;
 }
 
 /*navbar styling*/

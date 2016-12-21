@@ -22,7 +22,7 @@ p.lead {
   padding-left:80px;
   padding-right:80px;
   padding-top:40px;
-  font-size: 1.9em;
+  font-size: 1.8em;
   padding-bottom: 50px;
 }
 
@@ -49,7 +49,7 @@ p.lead {
   padding-left:80px;
   padding-right:80px;
   padding-top:40px;
-  font-size: 1.9em;
+  font-size: 1.8em;
   font-family: 'Handlee', cursive;
 }
 
@@ -68,7 +68,7 @@ p.lead {
   }
 
   p.lead,#en{
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding-left:20px;
     padding-right:20px;
   }

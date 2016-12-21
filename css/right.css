@@ -23,7 +23,7 @@ p.lead, #right_list{
   padding-left:80px;
   padding-right:80px;
   padding-top:40px;
-  font-size: 1.9em;
+  font-size: 1.8em;
 
 }
 
@@ -51,7 +51,7 @@ p.en,#right_list_en{
   padding-left:80px;
   padding-right:80px;
   padding-top:40px;
-  font-size: 1.9em;
+  font-size: 1.8em;
   font-family: 'Handlee', cursive;
 }
 
@@ -68,7 +68,7 @@ p.en,#right_list_en{
     font-size: 50px;
   }
   p.lead,.en,#right_list,#right_list_en{
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding-left:20px;
     padding-right:20px;
   }
